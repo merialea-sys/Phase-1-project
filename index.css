@@ -64,3 +64,28 @@ header{
     border-radius: 6px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
+
+#client-list{
+    list-style: none;
+    padding: 0;
+}
+
+#client-list li{
+    padding: 12px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#client-list button{
+    margin-top: 5px;
+    background: crimson;
+    color:white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#client-list button:hover{
+    background: #2F0909;
+}

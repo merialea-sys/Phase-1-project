@@ -1,16 +1,15 @@
-## Phase 1 Project
-## Division API
+## Imiza Borehole System
+****
+This is a web system that manages imiza borehole company's clients and the services offered
 
-A Flask-based REST API that performs  division operation between two numbers. The API stores the results and input in a SQLite database using SQLAlchemy as the ORM. 
+This system allows the registering of clients with their specified details, displaying the registered clients and deleting of clients.
 
-This project includes basic logging, error handling, observability features and documentation. The application is containerized using Docker and Docker Compose.
-
-### Author : Anita Kahenya Jul 2024
+### Author : Meri Alea September 2025
 
 ## Table of Contents
 
-- [Division API](#division-api)
-  - [Author : Anita Kahenya Jul 2024](#author--anita-kahenya-jul-2024)
+- [Imiza Borehole System](#Imiza-Borehole-System)
+  - [Author : Meri Alea September 2025](#author--meri alea-September-2025)
 - [Table of Contents](#table-of-contents)
 - [Features](#features)
 - [Live Preview](#live-preview)
@@ -24,82 +23,64 @@ This project includes basic logging, error handling, observability features and 
 
 ## Features
 
-- Perform division operation between two numbers.
-- Store the results in a SQLite database.
-- Handle various input validation scenarios.
-- Python3 logging to app.log file.
-- Observability and monitoring using Sentry.
-- Containerized using Docker and Docker Compose.
-- Documentation on Apidog
+- Register new clients.
+- Choose one or more services.
+- Display list of registered clients.
+- Delete clients from the list and the server.
+- Fetch API
 
 ## Live Preview
 
-- To view the live project [Visit](https://divide-api.onrender.com) the root of the project and the [api/divide](https://sp1xk1rtgc.apidog.io/endpoint-8346263) POST endpoint on Apidog.
+- To view the live project [Visit](https://merialea-sys.github.io/Phase-1-project/) the root of the project
   
 ## Requirements
 
-- Python3
-- Flask
-- Docker
-- Docker Compose
+- Node.js
+- JSON Server
+- Browser
 
 ## Installation
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/kahenya-anita/Divide-API
+   git clone https://merialea-sys.github.io/Phase-1-project/
    cd Division
 
-2. Create a .env file and add
+2. install JSON Server if not installed
     ```sh
-    FLASK_ENV=Division
-    FLASK_APP=app.py
+    npm install -g json-server
 
-3. Build and start the docker container
+3. Start the backend (db.json)
    ```sh
-   docker-compose up --build
+   json-server --watch db.json
 
-4. Run migrations and seed file
+4. Navigate to the localhost on the browser
    ```sh
-   flask db migrate
-   flask db upgrade
-
-5. Navigate to the localhost on the browser
-    ```sh
-    http://localhost:5500
-
-6. Open postman to run your first division operation
-    ```sh 
-    POST : http://localhost:5500/api/divide
-    Body:
-        {
-            "a": 10,
-            "b": 5
-        }
+   http://localhost:3000/clients
 
 
-## API Documentation
 
-- This API has been documented on [Apidog](https://sp1xk1rtgc.apidog.io/doc-572564)
 
-## Testing
+## API Endpoints
 
-- To run the tests
-    ```sh
-    docker-compose run tests
+- GET /clients
+- POST/clients
+- DELETE /clients/:id
+
+## Live Preview
+
 
 ## Contributing and Making Changes
 
-1.  Create a new branch in your terminal `git checkout -b improve-feature`
-2. Make necessary changes on the codebase
-2.  Build and run the docker container to see the changes.
-3.  Add the changes and commit them `git commit -am "Improve App"`
-4.  Push to the branch `git push origin improve-app` and open a new pull request
+1. Fork repository
+2. Create a new branch
+2. Make changes and commit`git commit -am "Improve App"`
+3.  Push to the branch `git push origin improve-app` and open a new pull request
 
 ## [License](LICENSE)
 
 MIT License
-Copyright (c) 2024 Anita Kahenya
+Copyright (c) 2025 Meri Alea
 
 ## Contact Information
-* Email : anitakahenya1@gmail.com
+* Email : merialea5@gmail.com

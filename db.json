@@ -1,46 +1,47 @@
 {
- "clients": [
-   {
-     "id": 1,
-     "name": "Moses Luvali",
-     "contact":"+254712567809",
-     "email":"moses.89@gmail.com",
-     "location":"Kikuyu",
-     "services": ["Drilling","Pump installation"]
-   },
-   {
-     "id": 2,
-     "name": "Jane Doe",
-     "contact":"+254712368509",
-     "email":"janedoe.89@gmail.com",
-     "location":"Ruiru",
-     "services": ["Maintenance"]
-   },
-   {
-     "id": 3,
-     "name": "Christopher Wambo",
-     "contact":"+254713467800",
-     "email":"wambo50@gmail.com",
-     "location":"Nairobi",
-     "services": ["Drilling","Water testing"]
-   },
-   {
-     "id": 4,
-     "name": "Kristine Omollo",
-     "contact":"+254713560801",
-     "email":"omollokristine7@gmail.com",
-     "location":"Nairobi",
-     "services": ["Drilling","Pump installation","Water testing"]
-   },
-   {
-     "id": 5,
-     "name": "Stefan Salva",
-     "contact":"+254712707400",
-     "email":"stefan05@gmail.com",
-     "location":"Kiambu",
-     "services": ["Maintenance"]
-   }
- ]
+  "clients": [
+    {
+      "id": "4d2f",
+      "name": "Lucas Matthew",
+      "contact": "0789473672",
+      "email": "lucas.56@gmail.com",
+      "location": "Nairobi",
+      "services": [
+        "Drilling",
+        "Water Testing"
+      ]
+    },
+    {
+      "id": "b9b7",
+      "name": "Moses Luvali",
+      "contact": "0765045067",
+      "email": "moses.89@gmail.com",
+      "location": "Kikuyu",
+      "services": [
+        "Drilling",
+        "Pump Installation"
+      ]
+    },
+    {
+      "id": "425f",
+      "name": "Jane Doe",
+      "contact": "0734509856",
+      "email": "janedoe.89@gmail.com",
+      "location": "Ruiru",
+      "services": [
+        "Maintenance"
+      ]
+    },
+    {
+      "id": "198f",
+      "name": "Christopher Wambo",
+      "contact": "0789432769",
+      "email": "wambo50@gmail.com",
+      "location": "Nairobi",
+      "services": [
+        "Drilling",
+        "Water Testing"
+      ]
+    }
+  ]
 }
-
-
