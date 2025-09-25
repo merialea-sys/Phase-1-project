@@ -68,7 +68,7 @@ This system allows the registering of clients with their specified details, disp
 - DELETE /clients/:id
 
 ## Live Preview
-
+[Livelink](https://fastidious-semifreddo-78be4d.netlify.app/)
 
 ## Contributing and Making Changes
 
